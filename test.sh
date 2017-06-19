@@ -5,7 +5,8 @@ PID_LIST+=" $pid";
 
 sleep 1
 
-openlase-simple & pid=$!
+./pentagram & pid=$!
+#openlase-simple & pid=$!
 PID_LIST+=" $pid";
 openlase-simulator & pid=$!
 PID_LIST+=" $pid";

@@ -2,7 +2,7 @@
 
 ## Install
 
-Install [homebrew-openlase](https://github.com/edy555/homebrew-openlase) via `homebrew` which has a few patches to allow `openlace` to work on a Mac.
+Install [homebrew-openlase](https://github.com/edy555/homebrew-openlase) via `homebrew` which has a few patches to allow `openlase` to work on a Mac.
 
 ```sh
 $ curl -fsSk https://raw.github.com/mxcl/homebrew/go | ruby
@@ -30,7 +30,7 @@ git submodule update
 ## Build ##
 
 ```sh
-make -C lasershark_hostapp lasershark_jack
+make
 ```
 
 ## Run
