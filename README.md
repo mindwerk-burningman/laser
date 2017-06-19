@@ -1,7 +1,6 @@
-# laser
-= Laser Interactivity =
+# Laser Interactivity
 
-== Setup ==
+## Setup
 
 * Brew install openlase:
 ** https://github.com/edy555/homebrew-openlase
