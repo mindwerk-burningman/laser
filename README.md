@@ -2,6 +2,9 @@
 
 ## Install
 
+Install latest Leapmotion v2 SDK
+https://developer.leapmotion.com/sdk/v2/
+
 Install [homebrew-openlase](https://github.com/edy555/homebrew-openlase) via `homebrew` which has a few patches to allow `openlase` to work on a Mac.
 
 ```sh
@@ -35,42 +38,13 @@ make
 
 ## Run
 
-```sh
-./test.sh
-```
-
-## Running (just simulator)
-
-**Simulator**
+Execute:
 
 ```sh
-$ jack_server_control
-
-# new tab
-$ openlase-simulator 
-$ openlase-simple
-
-# new tab
-$ jack_connect libol:out_x simulator:in_x
-$ jack_connect libol:out_y simulator:in_y
-$ jack_connect libol:out_g simulator:in_g
-$ jack_connect libol:out_r simulator:in_r
-$ jack_connect libol:out_b simulator:in_b
+./run.sh <program> <output>
 ```
 
-## Running (just laser)
-
-```sh
-# run lasershark
-./lasershark_hostapp/lasershark_jack
-
-# connect ports
-$ jack_connect libol:out_x lasershark:in_x
-$ jack_connect libol:out_y lasershark:in_y
-$ jack_connect libol:out_g lasershark:in_g
-$ jack_connect libol:out_r lasershark:in_r
-$ jack_connect libol:out_b lasershark:in_b
-```
+Where <program> is the laser program, and <output> is either laser, sim, or both.
 
 ## Troubleshooting ##
 

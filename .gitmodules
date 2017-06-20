@@ -1,3 +1,6 @@
 [submodule "lasershark_hostapp"]
 	path = lasershark_hostapp
 	url = https://github.com/marcan/lasershark_hostapp.git
+[submodule "spline"]
+	path = spline
+	url = https://github.com/ttk592/spline.git
